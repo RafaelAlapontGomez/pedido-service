@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Getter @NoArgsConstructor @AllArgsConstructor
 public enum State {
 	Pendiente("Pendiente"),
-	Aprovado("Aprovado"),
+	Aprovado("Aprobado"),
 	Candelado("Cancelado");
 	
 	private String state;
