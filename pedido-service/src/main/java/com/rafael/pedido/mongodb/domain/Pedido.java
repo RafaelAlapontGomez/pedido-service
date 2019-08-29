@@ -35,5 +35,7 @@ public class Pedido implements Serializable {
     
     @NotNull
     List<Item> items;
+    
+    private String cause;
 
 }
