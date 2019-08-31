@@ -53,6 +53,4 @@ public class PedidoQueryServiceImpl implements PedidoQueryService {
 		pedidos.forEach((item -> pedidosDto.add(mapper.map(item, PedidoDto.class))));
 		return pedidosDto;
 	}
-
-	
 }

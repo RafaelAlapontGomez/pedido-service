@@ -22,7 +22,7 @@ public class PedidoRepositoryTest {
 	@Autowired
 	PedidoRepository pedidoRepository;
 	
-    @DisplayName("Test Save customer")
+    @DisplayName("Test Save Pedido")
     @Test
     public void createPedidoTest() {
 		Pedido pedidoNew = pedidoRepository.save(buildPedido());

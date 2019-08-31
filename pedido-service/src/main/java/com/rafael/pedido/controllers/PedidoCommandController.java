@@ -11,7 +11,7 @@ import com.rafael.pedido.services.exceptions.NoDataFoundException;
 import com.rafael.pedido.services.impl.PedidoCommandServiceImpl;
 
 @RestController
-public class PedidoController implements APIPedidoCommand {
+public class PedidoCommandController implements APIPedidoCommand {
 
 	@Autowired
 	PedidoCommandServiceImpl pedidoService;
