@@ -15,7 +15,6 @@ import lombok.NoArgsConstructor;
 @Data @NoArgsConstructor @AllArgsConstructor @Builder
 public class PedidoDto implements Serializable {
 	
-    @NotNull
     private Long id;
 	
     @NotNull
@@ -31,4 +30,6 @@ public class PedidoDto implements Serializable {
     
     @NotNull
     List<ItemDto> items;
+    
+    private String cause;
 }
